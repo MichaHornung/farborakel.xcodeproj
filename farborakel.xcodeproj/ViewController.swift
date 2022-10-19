@@ -19,6 +19,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         kreis.layer.cornerRadius = 100
+        hintergund.layer.cornerRadius = 10
+        farbekreis.layer.cornerRadius = 10
     }
     
     @IBAction func changeBackground(_ sender: Any) {
